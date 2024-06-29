@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		E22AE1802C30BAA9007B5DAC /* AnalyticsFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = E22AE17F2C30BAA9007B5DAC /* AnalyticsFramework.docc */; };
 		E22AE1812C30BAA9007B5DAC /* AnalyticsFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E22AE17E2C30BAA9007B5DAC /* AnalyticsFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E22AE1882C30BB99007B5DAC /* AnalyticsFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22AE1872C30BB99007B5DAC /* AnalyticsFramework.swift */; };
+		E22AE1EB2C30C05A007B5DAC /* AnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22AE1EA2C30C05A007B5DAC /* AnalyticsManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E22AE17B2C30BAA9007B5DAC /* AnalyticsFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AnalyticsFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E22AE17E2C30BAA9007B5DAC /* AnalyticsFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnalyticsFramework.h; sourceTree = "<group>"; };
 		E22AE17F2C30BAA9007B5DAC /* AnalyticsFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = AnalyticsFramework.docc; sourceTree = "<group>"; };
+		E22AE1872C30BB99007B5DAC /* AnalyticsFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsFramework.swift; sourceTree = "<group>"; };
+		E22AE1EA2C30C05A007B5DAC /* AnalyticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,8 @@
 		E22AE1712C30BAA9007B5DAC = {
 			isa = PBXGroup;
 			children = (
+				E22AE1EA2C30C05A007B5DAC /* AnalyticsManager.swift */,
+				E22AE1872C30BB99007B5DAC /* AnalyticsFramework.swift */,
 				E22AE17D2C30BAA9007B5DAC /* AnalyticsFramework */,
 				E22AE17C2C30BAA9007B5DAC /* Products */,
 			);
@@ -132,7 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E22AE1EB2C30C05A007B5DAC /* AnalyticsManager.swift in Sources */,
 				E22AE1802C30BAA9007B5DAC /* AnalyticsFramework.docc in Sources */,
+				E22AE1882C30BB99007B5DAC /* AnalyticsFramework.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
