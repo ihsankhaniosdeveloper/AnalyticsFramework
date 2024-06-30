@@ -35,8 +35,6 @@
 		E22AE1712C30BAA9007B5DAC = {
 			isa = PBXGroup;
 			children = (
-				E22AE1EA2C30C05A007B5DAC /* AnalyticsManager.swift */,
-				E22AE1872C30BB99007B5DAC /* AnalyticsFramework.swift */,
 				E22AE17D2C30BAA9007B5DAC /* AnalyticsFramework */,
 				E22AE17C2C30BAA9007B5DAC /* Products */,
 			);
@@ -53,6 +51,8 @@
 		E22AE17D2C30BAA9007B5DAC /* AnalyticsFramework */ = {
 			isa = PBXGroup;
 			children = (
+				E22AE1EA2C30C05A007B5DAC /* AnalyticsManager.swift */,
+				E22AE1872C30BB99007B5DAC /* AnalyticsFramework.swift */,
 				E22AE17E2C30BAA9007B5DAC /* AnalyticsFramework.h */,
 				E22AE17F2C30BAA9007B5DAC /* AnalyticsFramework.docc */,
 			);
