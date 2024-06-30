@@ -8,13 +8,13 @@ Pod::Spec.new do |spec|
     This framework provides easy-to-use methods for logging events and tracking analytics in your iOS applications.
   DESC
 
-  spec.homepage     = "https://github.com/yourusername/AnalyticsFramework"
+  spec.homepage     = "https://github.com/ihsankhaniosdeveloper/AnalyticsFramework"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
-  spec.author       = { "Your Name" => "your-email@example.com" }
+  spec.author       = { "ihsankhaniosdeveloper" => "ihsankhaniosdeveloper@gmail.com" }
 
   spec.ios.deployment_target = "12.0"
 
-  spec.source       = { :git => "https://github.com/yourusername/AnalyticsFramework.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/ihsankhaniosdeveloper/AnalyticsFramework.git", :tag => "#{spec.version}" }
 
   spec.source_files  = "Sources/AnalyticsFramework/**/*.{swift,h,m}"
   spec.exclude_files = "Sources/AnalyticsFramework/Exclude"
