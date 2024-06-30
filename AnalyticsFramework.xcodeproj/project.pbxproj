@@ -9,24 +9,20 @@
 /* Begin PBXBuildFile section */
 		E22AE1802C30BAA9007B5DAC /* AnalyticsFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = E22AE17F2C30BAA9007B5DAC /* AnalyticsFramework.docc */; };
 		E22AE1812C30BAA9007B5DAC /* AnalyticsFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E22AE17E2C30BAA9007B5DAC /* AnalyticsFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E22AE1882C30BB99007B5DAC /* AnalyticsFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22AE1872C30BB99007B5DAC /* AnalyticsFramework.swift */; };
-		E22AE1EB2C30C05A007B5DAC /* AnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22AE1EA2C30C05A007B5DAC /* AnalyticsManager.swift */; };
-		E22AE2412C31831D007B5DAC /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = E22AE2402C31831D007B5DAC /* sample.json */; };
-		E22AE28A2C318833007B5DAC /* OtherSourceFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22AE2882C318833007B5DAC /* OtherSourceFile.swift */; };
-		E22AE28C2C318863007B5DAC /* Sample.json in Resources */ = {isa = PBXBuildFile; fileRef = E22AE28B2C318863007B5DAC /* Sample.json */; };
-		E22AE28E2C31899B007B5DAC /* AnalyticsFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22AE28D2C31899B007B5DAC /* AnalyticsFrameworkTests.swift */; };
+		E22AE2962C318CB2007B5DAC /* AnalyticsFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22AE2952C318CB2007B5DAC /* AnalyticsFramework.swift */; };
+		E22AE2982C318CDE007B5DAC /* AnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22AE2972C318CDE007B5DAC /* AnalyticsManager.swift */; };
+		E22AE29B2C318D1E007B5DAC /* Sample.json in Resources */ = {isa = PBXBuildFile; fileRef = E22AE29A2C318D1E007B5DAC /* Sample.json */; };
+		E22AE29E2C318D55007B5DAC /* AnalyticsFrameworkTests.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22AE29D2C318D55007B5DAC /* AnalyticsFrameworkTests.swift.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E22AE17B2C30BAA9007B5DAC /* AnalyticsFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AnalyticsFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E22AE17E2C30BAA9007B5DAC /* AnalyticsFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnalyticsFramework.h; sourceTree = "<group>"; };
 		E22AE17F2C30BAA9007B5DAC /* AnalyticsFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = AnalyticsFramework.docc; sourceTree = "<group>"; };
-		E22AE1872C30BB99007B5DAC /* AnalyticsFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsFramework.swift; sourceTree = "<group>"; };
-		E22AE1EA2C30C05A007B5DAC /* AnalyticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsManager.swift; sourceTree = "<group>"; };
-		E22AE2402C31831D007B5DAC /* sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
-		E22AE2882C318833007B5DAC /* OtherSourceFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherSourceFile.swift; sourceTree = "<group>"; };
-		E22AE28B2C318863007B5DAC /* Sample.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Sample.json; path = ../../../../Sample.json; sourceTree = "<group>"; };
-		E22AE28D2C31899B007B5DAC /* AnalyticsFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnalyticsFrameworkTests.swift; path = ../../../AnalyticsFrameworkTests.swift; sourceTree = "<group>"; };
+		E22AE2952C318CB2007B5DAC /* AnalyticsFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsFramework.swift; sourceTree = "<group>"; };
+		E22AE2972C318CDE007B5DAC /* AnalyticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsManager.swift; sourceTree = "<group>"; };
+		E22AE29A2C318D1E007B5DAC /* Sample.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Sample.json; sourceTree = "<group>"; };
+		E22AE29D2C318D55007B5DAC /* AnalyticsFrameworkTests.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsFrameworkTests.swift.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,9 +39,8 @@
 		E22AE1712C30BAA9007B5DAC = {
 			isa = PBXGroup;
 			children = (
-				E22AE2302C318138007B5DAC /* Sources */,
-				E22AE22F2C318111007B5DAC /* Resources */,
-				E22AE2312C318156007B5DAC /* Tests */,
+				E22AE2922C318C00007B5DAC /* Tests */,
+				E22AE2902C318BF2007B5DAC /* Sources */,
 				E22AE17D2C30BAA9007B5DAC /* AnalyticsFramework */,
 				E22AE17C2C30BAA9007B5DAC /* Products */,
 			);
@@ -68,58 +63,47 @@
 			path = AnalyticsFramework;
 			sourceTree = "<group>";
 		};
-		E22AE22F2C318111007B5DAC /* Resources */ = {
+		E22AE2902C318BF2007B5DAC /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				E22AE2402C31831D007B5DAC /* sample.json */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		E22AE2302C318138007B5DAC /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				E22AE2322C3181E1007B5DAC /* AnalyticsFramework */,
+				E22AE2942C318C95007B5DAC /* AnalyticsFramework */,
+				E22AE2992C318D04007B5DAC /* Resources */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		E22AE2312C318156007B5DAC /* Tests */ = {
+		E22AE2922C318C00007B5DAC /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				E22AE23D2C3182A8007B5DAC /* AnalyticsFrameworkTests */,
+				E22AE29C2C318D4A007B5DAC /* AnalyticsFrameworkTests */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
 		};
-		E22AE2322C3181E1007B5DAC /* AnalyticsFramework */ = {
+		E22AE2942C318C95007B5DAC /* AnalyticsFramework */ = {
 			isa = PBXGroup;
 			children = (
-				E22AE1EA2C30C05A007B5DAC /* AnalyticsManager.swift */,
-				E22AE1872C30BB99007B5DAC /* AnalyticsFramework.swift */,
-				E22AE2882C318833007B5DAC /* OtherSourceFile.swift */,
-				E22AE2332C3181E1007B5DAC /* Resources */,
+				E22AE2952C318CB2007B5DAC /* AnalyticsFramework.swift */,
+				E22AE2972C318CDE007B5DAC /* AnalyticsManager.swift */,
 			);
-			name = AnalyticsFramework;
-			path = sourc/AnalyticsFramework;
-			sourceTree = SOURCE_ROOT;
+			path = AnalyticsFramework;
+			sourceTree = "<group>";
 		};
-		E22AE2332C3181E1007B5DAC /* Resources */ = {
+		E22AE2992C318D04007B5DAC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E22AE28B2C318863007B5DAC /* Sample.json */,
+				E22AE29A2C318D1E007B5DAC /* Sample.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		E22AE23D2C3182A8007B5DAC /* AnalyticsFrameworkTests */ = {
+		E22AE29C2C318D4A007B5DAC /* AnalyticsFrameworkTests */ = {
 			isa = PBXGroup;
 			children = (
-				E22AE28D2C31899B007B5DAC /* AnalyticsFrameworkTests.swift */,
+				E22AE29D2C318D55007B5DAC /* AnalyticsFrameworkTests.swift.swift */,
 			);
-			name = AnalyticsFrameworkTests;
-			path = Test/AnalyticsFrameworkTests;
-			sourceTree = SOURCE_ROOT;
+			path = AnalyticsFrameworkTests;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -190,8 +174,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E22AE28C2C318863007B5DAC /* Sample.json in Resources */,
-				E22AE2412C31831D007B5DAC /* sample.json in Resources */,
+				E22AE29B2C318D1E007B5DAC /* Sample.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,11 +185,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E22AE28E2C31899B007B5DAC /* AnalyticsFrameworkTests.swift in Sources */,
-				E22AE1EB2C30C05A007B5DAC /* AnalyticsManager.swift in Sources */,
-				E22AE28A2C318833007B5DAC /* OtherSourceFile.swift in Sources */,
+				E22AE2982C318CDE007B5DAC /* AnalyticsManager.swift in Sources */,
 				E22AE1802C30BAA9007B5DAC /* AnalyticsFramework.docc in Sources */,
-				E22AE1882C30BB99007B5DAC /* AnalyticsFramework.swift in Sources */,
+				E22AE29E2C318D55007B5DAC /* AnalyticsFrameworkTests.swift.swift in Sources */,
+				E22AE2962C318CB2007B5DAC /* AnalyticsFramework.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
