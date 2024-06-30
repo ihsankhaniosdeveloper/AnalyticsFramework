@@ -1,10 +1,7 @@
 Pod::Spec.new do |spec|
   spec.name         = "AnalyticsFramework"
-<<<<<<< HEAD
   spec.version      = "1.0.1"
-=======
-  spec.version      = "1.0.0"
->>>>>>> 4d0482d31a897737931ae2b9cc1366b1f11c1a3a
+
   spec.summary      = "A simple analytics framework."
 
   spec.description  = <<-DESC
