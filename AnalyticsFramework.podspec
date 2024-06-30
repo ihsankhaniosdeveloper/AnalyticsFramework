@@ -1,7 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "AnalyticsFramework"
   spec.version      = "1.0.1"
-
   spec.summary      = "A simple analytics framework."
 
   spec.description  = <<-DESC
@@ -15,11 +14,7 @@ Pod::Spec.new do |spec|
 
   spec.ios.deployment_target = "12.0"
 
-<<<<<<< HEAD
-  spec.source       = { :git => "https://github.com/ihsankhaniosdeveloper/AnalyticsFramework.git", :tag => "1.0.0" }
-=======
-  spec.source       = { :git => "https://github.com/ihsankhaniosdeveloper/AnalyticsFramework.git", :tag => "#{spec.version}" }
->>>>>>> 4d0482d31a897737931ae2b9cc1366b1f11c1a3a
+  spec.source       = { :git => "https://github.com/ihsankhaniosdeveloper/AnalyticsFramework.git", :tag => "1.0.1" }
 
   spec.source_files  = "AnalyticsFramework/**/*.{swift,h,m}"
   spec.exclude_files = "AnalyticsFramework/Exclude"
